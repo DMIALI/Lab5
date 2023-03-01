@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="add a description of the all commands in the Help command">
+    <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="fixed the process of exceptions in the Help">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Clear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/CountByNumberOfParticipants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/ExecuteScript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAnyByFrontMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Reorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Save.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Shuffle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Help.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControlCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControlCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Show.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +96,7 @@
       <updated>1677612466259</updated>
       <workItem from="1677612467832" duration="6966000" />
       <workItem from="1677657910814" duration="671000" />
-      <workItem from="1677666801709" duration="15282000" />
+      <workItem from="1677666801709" duration="18129000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1677612658594</created>
@@ -137,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677707566506</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fixed the process of exceptions in the Help">
+      <created>1677708099069</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677708099069</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +191,7 @@
     <MESSAGE value="protection against incorrect command input" />
     <MESSAGE value="Add command: Update" />
     <MESSAGE value="add a description of the all commands in the Help command" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a description of the all commands in the Help command" />
+    <MESSAGE value="fixed the process of exceptions in the Help" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the process of exceptions in the Help" />
   </component>
 </project>

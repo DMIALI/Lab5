@@ -19,7 +19,7 @@ public class Help extends Command {
             if (! name.equalsIgnoreCase("Command")) {
                 try {
                     Command clazz = (Command) Class.forName("org.example.Commands." + name).newInstance();
-                    System.out.println(name+ " - " + clazz.functionality);
+                    System.out.println(name+ " - " + clazz.getFunctionality());
                 } catch (ClassNotFoundException | InstantiationException | IllegalAccessException e){
                     System.out.println("No such command :(");
                 }

@@ -8,6 +8,10 @@ public abstract class Command {
         return "null";
     }
 
+    public String getFunctionality() {
+        return functionality;
+    }
+
     public abstract String execute(ArrayList<String> args);
 
 }
