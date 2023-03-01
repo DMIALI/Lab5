@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="Add method to start writing in console">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Show.java" afterDir="false" />
+    <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="add functionality to the Help method and also add passing arguments to the class-command">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Help.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControlCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControlCenter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +49,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15136719",
     "project.structure.side.proportion": "0.2"
@@ -90,7 +85,7 @@
       <updated>1677612466259</updated>
       <workItem from="1677612467832" duration="6966000" />
       <workItem from="1677657910814" duration="671000" />
-      <workItem from="1677666801709" duration="8622000" />
+      <workItem from="1677666801709" duration="10498000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1677612658594</created>
@@ -113,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677666865164</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add functionality to the Help method and also add passing arguments to the class-command">
+      <created>1677700206257</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677700206257</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +148,7 @@
     <MESSAGE value="Create project" />
     <MESSAGE value="Create a Control Center where the command-class will be placed in a Map with command objects" />
     <MESSAGE value="Add method to start writing in console" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method to start writing in console" />
+    <MESSAGE value="add functionality to the Help method and also add passing arguments to the class-command" />
+    <option name="LAST_COMMIT_MESSAGE" value="add functionality to the Help method and also add passing arguments to the class-command" />
   </component>
 </project>

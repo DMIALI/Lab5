@@ -3,6 +3,7 @@ package org.example;
 import org.example.Commands.Command;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.*;
 
 public class ControlCenter {
@@ -26,12 +27,15 @@ public class ControlCenter {
         String command = scanner.nextLine();
 
         while(!command.equalsIgnoreCase("Exit")){
-
-            ArrayList <String> listOfCommand = new ArrayList<String>();
-            Collections.addAll(listOfCommand, command.split(" "));
-            String name = listOfCommand.get(0);
-            listOfCommand.remove(0);
-            System.out.println(commandMap.get(firstUpperCase(name)).execute(listOfCommand));
+            try {
+                ArrayList<String> listOfCommand = new ArrayList<String>();
+                Collections.addAll(listOfCommand, command.split(" "));
+                String name = listOfCommand.get(0);
+                listOfCommand.remove(0);
+                System.out.println(commandMap.get(firstUpperCase(name)).execute(listOfCommand));
+            } catch (NullPointerException e){
+                System.out.println("No such command");
+            }
             command = scanner.nextLine();
         }
     }
