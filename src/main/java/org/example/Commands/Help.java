@@ -2,10 +2,14 @@ package org.example.Commands;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Help extends Command {
+    public Help () {
+        this.functionality = "вывести справку по доступным командам";
+    }
     @Override
-    public String execute(ArrayList<String> args) {
+    public String execute(ArrayList<String> args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
         File dir = new File("src\\main\\java\\org\\example\\Commands");
         File[] arrFiles = dir.listFiles();
         for (File file : arrFiles) {
@@ -13,9 +17,13 @@ public class Help extends Command {
             String[] arrCom = file.toString().split(ch);
             String name = arrCom[arrCom.length - 1].split("\\.")[0];
             if (! name.equalsIgnoreCase("Command")) {
-                System.out.println(name);
+                Command clazz = (Command) Class.forName("org.example.Commands." + name).newInstance();
+                System.out.println(name+ " - " + clazz.functionality);
+
             }
         }
         return "";
     }
+
+
 }

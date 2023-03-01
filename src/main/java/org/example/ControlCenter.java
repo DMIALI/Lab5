@@ -35,6 +35,12 @@ public class ControlCenter {
                 System.out.println(commandMap.get(firstUpperCase(name)).execute(listOfCommand));
             } catch (NullPointerException e){
                 System.out.println("No such command");
+            } catch (ClassNotFoundException e) {
+                throw new RuntimeException(e);
+            } catch (InstantiationException e) {
+                throw new RuntimeException(e);
+            } catch (IllegalAccessException e) {
+                throw new RuntimeException(e);
             }
             command = scanner.nextLine();
         }
