@@ -8,6 +8,6 @@ public abstract class Command {
         return "null";
     }
 
-    public abstract String execute(ArrayList<String> args) throws ClassNotFoundException, InstantiationException, IllegalAccessException;
+    public abstract String execute(ArrayList<String> args);
 
 }
