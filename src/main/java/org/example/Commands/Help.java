@@ -11,7 +11,9 @@ public class Help extends Command {
     @Override
     public String execute(ArrayList<String> args)  {
         File dir = new File("src\\main\\java\\org\\example\\Commands");
+        StringBuilder out = new StringBuilder();
         File[] arrFiles = dir.listFiles();
+        assert arrFiles != null;
         for (File file : arrFiles) {
             String ch = "\\\\";
             String[] arrCom = file.toString().split(ch);
@@ -19,13 +21,13 @@ public class Help extends Command {
             if (! name.equalsIgnoreCase("Command")) {
                 try {
                     Command clazz = (Command) Class.forName("org.example.Commands." + name).newInstance();
-                    System.out.println(name+ " - " + clazz.getFunctionality());
+                    out.append(name).append(" - ").append(clazz.getFunctionality()).append("\n");
                 } catch (ClassNotFoundException | InstantiationException | IllegalAccessException e){
-                    System.out.println("No such command :(");
+                    return "No such command :(";
                 }
             }
         }
-        return "";
+        return out.toString();
     }
 
 

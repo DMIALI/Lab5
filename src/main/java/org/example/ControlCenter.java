@@ -14,6 +14,7 @@ public class ControlCenter {
 
         File dir = new File("src\\main\\java\\org\\example\\Commands");
         File[] arrFiles =dir.listFiles();
+        assert arrFiles != null;
         for(File file:arrFiles){
             String ch = "\\\\";
             String[] arrCom = file.toString().split(ch);

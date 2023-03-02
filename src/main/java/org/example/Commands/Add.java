@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class Add extends Command{
 
-
     public Add () {
         this.functionality = "добавить новый элемент в коллекцию";
     }
