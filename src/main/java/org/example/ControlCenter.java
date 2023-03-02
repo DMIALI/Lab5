@@ -24,15 +24,15 @@ public class ControlCenter {
         }
     }
     public void Start (){
+        System.out.println("If you want to call a command consisting of several words, you must use '_' between the words :)");
         String command = scanner.nextLine();
-
         while(!command.equalsIgnoreCase("Exit")){
             try {
                 ArrayList<String> listOfCommand = new ArrayList<String>();
                 Collections.addAll(listOfCommand, command.split(" "));
                 String name = listOfCommand.get(0);
                 listOfCommand.remove(0);
-                System.out.println(commandMap.get(firstUpperCase(name)).execute(listOfCommand));
+                System.out.println(commandMap.get(inputHandler(name)).execute(listOfCommand));
             } catch (NullPointerException e){
                 System.out.println("No such command");
             }
@@ -42,5 +42,12 @@ public class ControlCenter {
     private String firstUpperCase(String word){
         if(word == null || word.isEmpty()) return "";
         return word.substring(0, 1).toUpperCase() + word.toLowerCase().substring(1);
+    }
+    private String inputHandler(String input){
+        StringBuilder name = new StringBuilder();
+        for(String word: input.split("_")){
+            name.append(firstUpperCase(word));
+        }
+        return name.toString();
     }
 }
