@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class FilterByAlbumsCount extends Command {
 
     public FilterByAlbumsCount () {
-        this.functionality = "вывести элементы, значение поля albumsCount которых равно заданном";
+        super("вывести элементы, значение поля albumsCount которых равно заданном");
     }
 
     @Override

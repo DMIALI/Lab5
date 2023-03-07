@@ -3,14 +3,16 @@ package org.example.Commands;
 import java.util.ArrayList;
 
 public abstract class Command {
-    protected String functionality;
-    public String execute(){
-        return "null";
+    private String functionality;
+
+    public Command(String function){
+        this.functionality = function;
     }
 
     public String getFunctionality() {
         return functionality;
     }
+
 
     public abstract String execute(ArrayList<String> args);
 

@@ -6,7 +6,7 @@ import java.util.Objects;
 
 public class Help extends Command {
     public Help () {
-        this.functionality = "вывести справку по доступным командам";
+        super("вывести справку по доступным командам");
     }
     @Override
     public String execute(ArrayList<String> args)  {

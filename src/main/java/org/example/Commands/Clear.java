@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Clear extends Command {
 
     public Clear() {
-        this.functionality = "очистить коллекцию";
+        super("очистить коллекцию");
     }
 
     @Override

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Update extends Command{
     public Update () {
-        this.functionality = "обновить значение элемента коллекции, id которого равен заданному";
+        super("обновить значение элемента коллекции, id которого равен заданному");
     }
     @Override
     public String execute(ArrayList<String> args) {

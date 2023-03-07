@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class CountByNumberOfParticipants extends Command {
 
     public CountByNumberOfParticipants () {
-        this.functionality = "вывести количество элементов, значение поля numberOfParticipants которых равно заданному";
+        super("вывести количество элементов, значение поля numberOfParticipants которых равно заданному");
     }
 
     @Override

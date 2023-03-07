@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class RemoveById extends Command{
 
     public RemoveById () {
-        this.functionality = "удалить элемент из коллекции по его id";
+        super("удалить элемент из коллекции по его id");
     }
 
     @Override

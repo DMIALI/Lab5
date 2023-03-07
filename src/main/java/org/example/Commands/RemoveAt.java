@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class RemoveAt extends Command {
 
     public RemoveAt () {
-        this.functionality = "удалить элемент, находящийся в заданной позиции коллекции (index)";
+        super("удалить элемент, находящийся в заданной позиции коллекции (index)");
     }
 
     @Override

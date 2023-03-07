@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class Save extends Command {
 
     public Save () {
-        this.functionality = "сохранить коллекцию в файл";
+        super("сохранить коллекцию в файл");
     }
 
     @Override

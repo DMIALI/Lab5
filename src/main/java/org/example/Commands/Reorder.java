@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class Reorder extends Command {
 
     public Reorder () {
-        this.functionality = "отсортировать коллекцию в порядке, обратном нынешнему";
+        super("отсортировать коллекцию в порядке, обратном нынешнему");
     }
 
     @Override
