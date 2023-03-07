@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.Commands.Command;
+import org.example.Commands.*;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,9 +10,22 @@ public class ControlCenter {
     Scanner scanner = new Scanner(System.in);
     private final Map<String, Command> commandMap = new HashMap<>();
 
-    public ControlCenter() throws ClassNotFoundException, InstantiationException, IllegalAccessException {
-
-        File dir = new File("src\\main\\java\\org\\example\\Commands");
+    public ControlCenter() {
+        commandMap.put("Add", new Add());
+        commandMap.put("Clear", new Clear());
+        commandMap.put("CountByNumberOfParticipants", new CountByNumberOfParticipants());
+        commandMap.put("ExecuteScript", new ExecuteScript());
+        commandMap.put("FilterByAlbumsCount", new FilterByAlbumsCount());
+        commandMap.put("Help", new Help());
+        commandMap.put("RemoveAnyByFrontMan", new RemoveAnyByFrontMan());
+        commandMap.put("RemoveAt", new RemoveAt());
+        commandMap.put("RemoveById", new RemoveById());
+        commandMap.put("Reorder", new Reorder());
+        commandMap.put("Save", new Save());
+        commandMap.put("Show", new Show());
+        commandMap.put("Shuffle", new Shuffle());
+        commandMap.put("Update", new Update());
+        /*File dir = new File("src\\main\\java\\org\\example\\Commands");
         File[] arrFiles =dir.listFiles();
         assert arrFiles != null;
         for(File file:arrFiles){
@@ -22,7 +35,7 @@ public class ControlCenter {
             if (! name.equalsIgnoreCase("Command")) {
                 commandMap.put(name, (Command) Class.forName("org.example.Commands." + name).newInstance());
             }
-        }
+        }*/
     }
     public void Start (){
         System.out.println("If you want to call a command consisting of several words, you must use '_' between the words :)");
