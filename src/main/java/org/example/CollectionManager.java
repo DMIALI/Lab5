@@ -1,5 +1,5 @@
 package org.example;
-
+import lombok.*;
 import lombok.Getter;
 import lombok.Setter;
 import org.example.DataTypes.MusicBand;
