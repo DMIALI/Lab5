@@ -2,8 +2,8 @@ package org.example;
 
 import org.example.Commands.*;
 import org.example.Commands.CommandData.InputCommandData;
+import org.example.utils.Printer;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.*;
 
@@ -43,16 +43,16 @@ public class ControlCenter {
 
     public void Start(String path) throws IOException {
         Scanner scanner = new Scanner(System.in);
+        Printer printer = new Printer();
         System.out.println("If you want to call a command consisting of several words, you must use '_' between the words :)");
-        File file = receiveFile(path, scanner);
-        CollectionManager collectionManager = new CollectionManager(file);
+        CollectionManager collectionManager = new CollectionManager(path, scanner,printer);
         String command = scanner.nextLine();
         while (true) {
             try {
                 ArrayList<String> listOfCommand = new ArrayList<String>();
                 Collections.addAll(listOfCommand, command.split(" "));
                 String name = listOfCommand.remove(0);
-                System.out.println(commandMap.get(inputHandler(name)).execute(new InputCommandData(collectionManager,scanner, listOfCommand)));
+                commandMap.get(inputHandler(name)).execute(new InputCommandData(collectionManager,scanner, printer, listOfCommand));
             } catch (NullPointerException e) {
                 System.out.println("No such command");
             }
@@ -60,28 +60,7 @@ public class ControlCenter {
         }
     }
 
-    public File receiveFile(String path, Scanner scanner){
-        File file;
-        while (true) {
-            if (path.equals("exit")){
-                System.out.println("Приложение сейчас закроется....");
-                System.exit(0);
-            }
-            file = new File(path);
-            if (file.isFile()&&file.canRead()&&file.canWrite()){
-                break;
-            }
-            if (!file.isFile()) {
-                System.err.println("Файл не существует, введите другой путь к файлу:");
-            } else if (!file.canRead()) {
-                System.err.println("Отсутствуют права на чтение, измените права или введите путь к другому файлу:");
-            } else if (!file.canWrite()) {
-                System.err.println("Отсутствуют права на запись, измените права или введите путь к другому файлу:");
-            }
-            path = scanner.nextLine();
-        }
-        return file;
-    }
+
 
     private String firstUpperCase(String word) {
         if (word == null || word.isEmpty()) return "";

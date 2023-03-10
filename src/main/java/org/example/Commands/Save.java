@@ -10,7 +10,6 @@ public class Save extends Command {
         super("сохранить коллекцию в файл");
     }
     @Override
-    public OutputCommandData execute(InputCommandData input) {
-        return null;
+    public void execute(InputCommandData input) {
     }
 }

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.utils;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import org.example.DataTypes.MusicBand;

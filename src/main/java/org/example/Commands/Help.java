@@ -1,7 +1,7 @@
 package org.example.Commands;
 
 import org.example.Commands.CommandData.InputCommandData;
-import org.example.Commands.CommandData.OutputCommandData;
+import org.example.utils.Printer;
 
 import java.util.*;
 
@@ -16,12 +16,13 @@ public class Help extends Command {
     }
 
     @Override
-    public OutputCommandData execute(InputCommandData input){
+    public void execute(InputCommandData input){
+        Printer printer = input.printer();
         StringBuilder out = new StringBuilder();
         Set <String> keys = commandMap.keySet();
         for (String key:keys){
             out.append(key).append(" - ").append(commandMap.get(key).getFunctionality()).append("\n");
         }
-        return new OutputCommandData(out.toString());
+        printer.outPrintln(out.toString());
     }
 }

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.utils;
 
 import org.example.DataTypes.MusicBand;
 
@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.LinkedList;
 
 public class IdManager {
-    private LinkedList<Integer> ids;
+    private LinkedList<Integer> ids = new LinkedList<>();
     private Long maxid = 0L;
 
     public IdManager(LinkedList<MusicBand> musicBands) {
@@ -18,7 +18,6 @@ public class IdManager {
             ids.add(Math.toIntExact(currid));
             if (maxid.equals(Integer.MAX_VALUE)) {
                 ids.sort(Comparator.naturalOrder());
-                ;
             }
         }
     }

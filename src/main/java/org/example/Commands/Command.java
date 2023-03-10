@@ -12,6 +12,6 @@ public abstract class Command {
         this.functionality = function;
     }
 
-    public abstract OutputCommandData execute(InputCommandData input);
+    public abstract void execute(InputCommandData input);
 
 }

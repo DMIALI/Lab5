@@ -11,8 +11,7 @@ public class Update extends Command{
     }
 
     @Override
-    public OutputCommandData execute(InputCommandData input) {
-        return null;
+    public void execute(InputCommandData input) {
     }
 
     /*@Override
