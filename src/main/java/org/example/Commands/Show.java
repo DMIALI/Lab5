@@ -1,13 +1,17 @@
 package org.example.Commands;
 
+import org.example.Commands.CommandData.InputCommandData;
+import org.example.Commands.CommandData.OutputCommandData;
+
 import java.util.ArrayList;
 
 public class Show extends Command{
     public Show () {
         super("вывести в стандартный поток вывода все элементы коллекции в строковом представлении");
     }
+
     @Override
-    public String execute(ArrayList<String> args){
-        return"Show...";
+    public OutputCommandData execute(InputCommandData input) {
+        return null;
     }
 }

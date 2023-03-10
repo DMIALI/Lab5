@@ -1,5 +1,8 @@
 package org.example.Commands;
 
+import org.example.Commands.CommandData.InputCommandData;
+import org.example.Commands.CommandData.OutputCommandData;
+
 import java.util.ArrayList;
 
 public class FilterByAlbumsCount extends Command {
@@ -9,7 +12,7 @@ public class FilterByAlbumsCount extends Command {
     }
 
     @Override
-    public String execute(ArrayList<String> args){
-        return "FilterByAlbumsCount...";
+    public OutputCommandData execute(InputCommandData input) {
+        return null;
     }
 }

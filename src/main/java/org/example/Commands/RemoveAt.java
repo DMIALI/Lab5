@@ -1,4 +1,7 @@
 package org.example.Commands;
+import org.example.Commands.CommandData.InputCommandData;
+import org.example.Commands.CommandData.OutputCommandData;
+
 import java.util.ArrayList;
 
 public class RemoveAt extends Command {
@@ -8,7 +11,7 @@ public class RemoveAt extends Command {
     }
 
     @Override
-    public String execute(ArrayList<String> args){
-        return "RemoveAt...";
+    public OutputCommandData execute(InputCommandData input) {
+        return null;
     }
 }
