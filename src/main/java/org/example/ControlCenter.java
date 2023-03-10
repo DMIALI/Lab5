@@ -1,13 +1,14 @@
 package org.example;
 
 import org.example.Commands.*;
+import org.example.Commands.CommandData.InputCommandData;
 
 import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.*;
 
 public class ControlCenter {
-    Scanner scanner = new Scanner(System.in);
+
     private final HashMap<String, Command> commandMap = new HashMap<>();
 
     public ControlCenter() {
@@ -15,6 +16,7 @@ public class ControlCenter {
         commandMap.put("clear", new Clear());
         commandMap.put("count_by_number_of_participants", new CountByNumberOfParticipants());
         commandMap.put("execute_script", new ExecuteScript());
+        commandMap.put("exit", new Exit());
         commandMap.put("filter_by_albums_count", new FilterByAlbumsCount());
         commandMap.put("help", new Help());
         commandMap.put("remove_any_by_front_man", new RemoveAnyByFrontMan());
@@ -38,29 +40,57 @@ public class ControlCenter {
             }
         }*/
     }
-    public void Start (){
+
+    public void Start(String path) throws IOException {
+        Scanner scanner = new Scanner(System.in);
         System.out.println("If you want to call a command consisting of several words, you must use '_' between the words :)");
+        File file = receiveFile(path, scanner);
+        CollectionManager collectionManager = new CollectionManager(file);
         String command = scanner.nextLine();
-        while(!command.equalsIgnoreCase("Exit")){
+        while (true) {
             try {
                 ArrayList<String> listOfCommand = new ArrayList<String>();
                 Collections.addAll(listOfCommand, command.split(" "));
-                String name = listOfCommand.get(0);
-                listOfCommand.remove(0);
-                System.out.println(commandMap.get(inputHandler(name)).execute(listOfCommand));
-            } catch (NullPointerException e){
+                String name = listOfCommand.remove(0);
+                System.out.println(commandMap.get(inputHandler(name)).execute(new InputCommandData(collectionManager,scanner, listOfCommand)));
+            } catch (NullPointerException e) {
                 System.out.println("No such command");
             }
             command = scanner.nextLine();
         }
     }
-    private String firstUpperCase(String word){
-        if(word == null || word.isEmpty()) return "";
+
+    public File receiveFile(String path, Scanner scanner){
+        File file;
+        while (true) {
+            if (path.equals("exit")){
+                System.out.println("Приложение сейчас закроется....");
+                System.exit(0);
+            }
+            file = new File(path);
+            if (file.isFile()&&file.canRead()&&file.canWrite()){
+                break;
+            }
+            if (!file.isFile()) {
+                System.err.println("Файл не существует, введите другой путь к файлу:");
+            } else if (!file.canRead()) {
+                System.err.println("Отсутствуют права на чтение, измените права или введите путь к другому файлу:");
+            } else if (!file.canWrite()) {
+                System.err.println("Отсутствуют права на запись, измените права или введите путь к другому файлу:");
+            }
+            path = scanner.nextLine();
+        }
+        return file;
+    }
+
+    private String firstUpperCase(String word) {
+        if (word == null || word.isEmpty()) return "";
         return word.substring(0, 1).toUpperCase() + word.toLowerCase().substring(1);
     }
-    private String inputHandler(String input){
+
+    private String inputHandler(String input) {
         StringBuilder name = new StringBuilder();
-        for(String word: input.split("_")){
+        for (String word : input.split("_")) {
             name.append(word.toLowerCase());
             name.append('_');
         }

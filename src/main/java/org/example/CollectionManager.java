@@ -20,11 +20,11 @@ public class CollectionManager {
     private JsonWriter jsonWriter = new JsonWriter();
     private JsonReader jsonReader = new JsonReader();
 
-    public CollectionManager(String path) throws IOException {
-        file = new File(path);
-        musicBands = jsonReader.read(file);
-        creationDate = new Date();
-        idManager = new IdManager(musicBands);
+    public CollectionManager(File data) throws IOException {
+        this.file = data;
+        this.musicBands = jsonReader.read(file);
+        this.creationDate = new Date();
+        this.idManager = new IdManager(musicBands);
     }
     public void save() throws IOException {
         jsonWriter.write(file, musicBands);

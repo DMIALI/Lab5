@@ -10,7 +10,7 @@ import java.util.LinkedList;
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, IOException {
         ControlCenter controlCenter = new ControlCenter();
-        controlCenter.Start();
+        controlCenter.Start(args[0]);
         /*System.out.println("hello");
         MusicBand musicBand1 = new MusicBand(123L, "abc", new Coordinates(1L,2), new Date(), 123, 123, MusicGenre.POP, new Person("abc", "abc", Color.GREEN, Country.RUSSIA, new Location(1, 2F, 3, "abc")));
         MusicBand musicBand2 = new MusicBand(123L, "abc", new Coordinates(1L,2), new Date(), 123, 123, MusicGenre.POP, new Person("abc", "abc", Color.ORANGE, Country.RUSSIA, new Location(1, 2F, 3, "abc")));
