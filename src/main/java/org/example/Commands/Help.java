@@ -1,34 +1,27 @@
 package org.example.Commands;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Objects;
+import org.example.Commands.CommandData.InputCommandData;
+import org.example.Commands.CommandData.OutputCommandData;
+
+import java.util.*;
 
 public class Help extends Command {
+    private HashMap<String, Command> commandMap;
     public Help () {
         super("вывести справку по доступным командам");
     }
-    @Override
-    public String execute(ArrayList<String> args)  {
-        File dir = new File("src\\main\\java\\org\\example\\Commands");
-        StringBuilder out = new StringBuilder();
-        File[] arrFiles = dir.listFiles();
-        assert arrFiles != null;
-        for (File file : arrFiles) {
-            String ch = "\\\\";
-            String[] arrCom = file.toString().split(ch);
-            String name = arrCom[arrCom.length - 1].split("\\.")[0];
-            if (! name.equalsIgnoreCase("Command")) {
-                try {
-                    Command clazz = (Command) Class.forName("org.example.Commands." + name).newInstance();
-                    out.append(name).append(" - ").append(clazz.getFunctionality()).append("\n");
-                } catch (ClassNotFoundException | InstantiationException | IllegalAccessException e){
-                    return "No such command :(";
-                }
-            }
-        }
-        return out.toString();
+
+    public void addCommandMap(HashMap<String, Command> CommandMap){
+        this.commandMap = CommandMap;
     }
 
-
+    @Override
+    public OutputCommandData execute(InputCommandData input){
+        StringBuilder out = new StringBuilder();
+        Set <String> keys = commandMap.keySet();
+        for (String key:keys){
+            out.append(key).append(" - ").append(commandMap.get(key).getFunctionality()).append("\n");
+        }
+        return new OutputCommandData(out.toString());
+    }
 }

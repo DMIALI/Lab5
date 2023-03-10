@@ -8,7 +8,7 @@ import java.util.*;
 
 public class ControlCenter {
     Scanner scanner = new Scanner(System.in);
-    private final Map<String, Command> commandMap = new HashMap<>();
+    private final HashMap<String, Command> commandMap = new HashMap<>();
 
     public ControlCenter() {
         commandMap.put("add", new Add());
@@ -25,6 +25,7 @@ public class ControlCenter {
         commandMap.put("show", new Show());
         commandMap.put("shuffle", new Shuffle());
         commandMap.put("update", new Update());
+        ((Help) (commandMap.get("help"))).addCommandMap(commandMap);
         /*File dir = new File("src\\main\\java\\org\\example\\Commands");
         File[] arrFiles =dir.listFiles();
         assert arrFiles != null;

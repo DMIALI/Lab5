@@ -1,19 +1,17 @@
 package org.example.Commands;
 
-import java.util.ArrayList;
+import lombok.Getter;
+import org.example.Commands.CommandData.InputCommandData;
+import org.example.Commands.CommandData.OutputCommandData;
 
 public abstract class Command {
+    @Getter
     private String functionality;
 
     public Command(String function){
         this.functionality = function;
     }
 
-    public String getFunctionality() {
-        return functionality;
-    }
-
-
-    public abstract String execute(ArrayList<String> args);
+    public abstract OutputCommandData execute(InputCommandData input);
 
 }
