@@ -44,8 +44,8 @@ public class ControlCenter {
     public void Start(String path) throws IOException {
         Scanner scanner = new Scanner(System.in);
         Printer printer = new Printer();
-        System.out.println("If you want to call a command consisting of several words, you must use '_' between the words :)");
         CollectionManager collectionManager = new CollectionManager(path, scanner,printer);
+        System.out.print("Введите команду: ");
         String command = scanner.nextLine();
         while (true) {
             try {
@@ -57,6 +57,7 @@ public class ControlCenter {
                 System.out.println("No such command");
             }
             command = scanner.nextLine();
+
         }
     }
 
