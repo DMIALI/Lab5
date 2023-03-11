@@ -75,7 +75,7 @@ public class ControlCenter {
             name.append('_');
         }
         name.deleteCharAt(name.lastIndexOf("_"));
-        System.out.println(name.toString());
+        //System.out.println(name.toString());
         return name.toString();
     }
 }
