@@ -7,6 +7,7 @@ import org.example.DataTypes.MusicBand;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Set;
 
 public class Shuffle extends Command {
 
@@ -22,5 +23,6 @@ public class Shuffle extends Command {
             collectionManager.getMusicBands().pop();
             collectionManager.getMusicBands().add(musicBand);
         }
+        System.out.println(collectionManager.getMusicBands());
     }
 }
