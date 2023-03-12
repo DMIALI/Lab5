@@ -4,10 +4,7 @@ import org.example.Commands.CommandData.InputCommandData;
 import org.example.Commands.CommandData.OutputCommandData;
 import org.example.DataTypes.MusicBand;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class Shuffle extends Command {
 
@@ -18,11 +15,7 @@ public class Shuffle extends Command {
     @Override
     public void execute(InputCommandData input) {
         CollectionManager collectionManager = input.collectionManager();
-        HashSet<MusicBand> musicBandHashSet = new HashSet<MusicBand>(collectionManager.getMusicBands());
-        for(MusicBand musicBand:musicBandHashSet) {
-            collectionManager.getMusicBands().pop();
-            collectionManager.getMusicBands().add(musicBand);
-        }
-        System.out.println(collectionManager.getMusicBands());
+        ArrayList<MusicBand> musicBandLinkedList = new ArrayList<>();
+        Collections.shuffle(collectionManager.getMusicBands());
     }
 }

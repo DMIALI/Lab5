@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="add functionality to the Shuffle command">
+    <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="fixed Reorder command">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Reorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Reorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CollectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CollectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Show.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Shuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Shuffle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +114,8 @@
       <workItem from="1677666801709" duration="19747000" />
       <workItem from="1677750248539" duration="5771000" />
       <workItem from="1678537973989" duration="4591000" />
-      <workItem from="1678551218270" duration="352000" />
+      <workItem from="1678551218270" duration="3635000" />
+      <workItem from="1678614259348" duration="756000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1677612658594</created>
@@ -206,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678539748256</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fixed Reorder command">
+      <created>1678551825327</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678551825327</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +258,7 @@
     <MESSAGE value="constructors of commands updated" />
     <MESSAGE value="Clone files from branch 'Vasiliev'" />
     <MESSAGE value="add functionality to the Shuffle command" />
-    <option name="LAST_COMMIT_MESSAGE" value="add functionality to the Shuffle command" />
+    <MESSAGE value="fixed Reorder command" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed Reorder command" />
   </component>
 </project>
