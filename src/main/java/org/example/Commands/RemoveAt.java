@@ -27,7 +27,7 @@ public class RemoveAt extends Command {
             } catch (NumberFormatException e){
                 printer.errPrintln("Введите индекс в числовом формате");
             } catch (IndexOutOfBoundsException e){
-                printer.errPrintln("Такого индекса нет в коллекции\nКоличество эллементов в коллекции = " + collectionManager.getMusicBands().size());
+                printer.errPrintln("Элементов с таким индексом нет в коллекции\nКоличество эллементов в коллекции = " + collectionManager.getMusicBands().size());
             }
         }else if(args.size() == 0){
             printer.errPrintln("Этой команде необходим аргумент index. Попробуйте еще раз");
