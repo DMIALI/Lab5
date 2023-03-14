@@ -57,4 +57,13 @@ public class CollectionManager {
         }
         return file;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder out = new StringBuilder();
+        for(MusicBand musicBand: musicBands){
+            out.append(musicBand.toString()).append("\n");
+        }
+        return out.toString();
+    }
 }

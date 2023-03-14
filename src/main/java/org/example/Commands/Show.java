@@ -1,5 +1,6 @@
 package org.example.Commands;
 
+import org.example.CollectionManager;
 import org.example.Commands.CommandData.InputCommandData;
 import org.example.Commands.CommandData.OutputCommandData;
 
@@ -12,5 +13,7 @@ public class Show extends Command{
 
     @Override
     public void execute(InputCommandData input) {
+        CollectionManager collectionManager = input.collectionManager();
+        input.printer().outPrint(collectionManager.toString());
     }
 }
