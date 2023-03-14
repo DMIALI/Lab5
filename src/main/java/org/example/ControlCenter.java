@@ -56,6 +56,7 @@ public class ControlCenter {
             } catch (NullPointerException e) {
                 System.out.println("No such command");
             }
+            System.out.print("Введите команду: ");
             command = scanner.nextLine();
 
         }

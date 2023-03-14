@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="added functionality to commands Shuffle and Show">
+    <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="added functionality to the command Clear">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Clear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Show.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControlCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControlCenter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +115,8 @@
       <workItem from="1677750248539" duration="5771000" />
       <workItem from="1678537973989" duration="4591000" />
       <workItem from="1678551218270" duration="3635000" />
-      <workItem from="1678614259348" duration="1482000" />
+      <workItem from="1678614259348" duration="4825000" />
+      <workItem from="1678786536822" duration="2321000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1677612658594</created>
@@ -220,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678615201594</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added functionality to the command Clear">
+      <created>1678615898941</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678615898941</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +275,7 @@
     <MESSAGE value="add functionality to the Shuffle command" />
     <MESSAGE value="fixed Reorder command" />
     <MESSAGE value="added functionality to commands Shuffle and Show" />
-    <option name="LAST_COMMIT_MESSAGE" value="added functionality to commands Shuffle and Show" />
+    <MESSAGE value="added functionality to the command Clear" />
+    <option name="LAST_COMMIT_MESSAGE" value="added functionality to the command Clear" />
   </component>
 </project>

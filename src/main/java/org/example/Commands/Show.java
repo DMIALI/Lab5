@@ -3,6 +3,7 @@ package org.example.Commands;
 import org.example.CollectionManager;
 import org.example.Commands.CommandData.InputCommandData;
 import org.example.Commands.CommandData.OutputCommandData;
+import org.example.utils.Printer;
 
 import java.util.ArrayList;
 
@@ -14,6 +15,7 @@ public class Show extends Command{
     @Override
     public void execute(InputCommandData input) {
         CollectionManager collectionManager = input.collectionManager();
-        input.printer().outPrint(collectionManager.toString());
+        Printer printer = input.printer();
+        printer.outPrintln(collectionManager.toString());
     }
 }
