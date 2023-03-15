@@ -1,28 +1,40 @@
 package org.example.Commands;
 
+import org.example.CollectionManager;
 import org.example.Commands.CommandData.InputCommandData;
 import org.example.Commands.CommandData.OutputCommandData;
+import org.example.DataTypes.Coordinates;
+import org.example.DataTypes.MusicBand;
+import org.example.DataTypes.MusicGenre;
+import org.example.DataTypes.Person;
+import org.example.utils.IdManager;
+import org.example.utils.Printer;
 
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.LinkedList;
+import java.util.Scanner;
 
-public class Update extends Command{
-    public Update () {
-        super("обновить значение элемента коллекции, id которого равен заданному");
+public class Update extends Add {
+    public Update() {
+        this.setFunctionality("обновить значение элемента коллекции, id которого равен заданному");
     }
 
     @Override
     public void execute(InputCommandData input) {
+        CollectionManager collectionManager = input.collectionManager();
+        LinkedList<MusicBand> musicBands = collectionManager.getMusicBands();
+        Scanner scanner = input.scanner();
+        Printer printer = input.printer();
+        printer.outPrintln("Изменение данных музыкальной группы");
+        String name = receiveName(scanner, printer);
+        Coordinates coordinates = receiveCoordinates(scanner, printer);
+        Date date = new Date();
+        long numberOfParticipants = receiveNumberOfParticipants(scanner, printer);
+        long albumsCount = receiveAlbumsCount(scanner, printer);
+        MusicGenre musicGenre = receiveMusicGenre(scanner, printer);
+        Person person = receivePerson(scanner, printer);
+        musicBands.add(new MusicBand(60L, name, coordinates, date, numberOfParticipants, albumsCount, musicGenre, person));
+        printer.outPrintln("Элемент успешно обновлен");
     }
-
-    /*@Override
-    public String execute(ArrayList<String> args) {
-        try{
-            Long id = Long.valueOf(args.get(0));
-        } catch (IndexOutOfBoundsException e){
-            System.out.println("You need enter argument: id, {element} ");
-        } catch (NumberFormatException e){
-            System.out.println("Please enter the number");
-        }
-        return null;
-    }*/
 }

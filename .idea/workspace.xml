@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="Clone files from branch 'Vasiliev'">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/script.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CollectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CollectionManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Shuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Shuffle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/CommandData/InputCommandData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/CommandData/InputCommandData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/ExecuteScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/ExecuteScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Help.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Save.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Save.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Update.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControlCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControlCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/JsonWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/JsonWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/PrimitiveTypeAsserter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/PrimitiveTypeAsserter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Vasilev" />
+        <entry key="$PROJECT_DIR$" value="Aliev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,6 +60,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/dmitr/Desktop/Дима/Java/LaboratoryWork-5&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -65,7 +76,7 @@
     <configuration name="ConsoleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ConsoleApp" />
       <module name="Lab5" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\dmitr\Desktop\Дима\Java\Lab5\src\main\java\org\example\data.json" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\фвьшт\IdeaProjects\Lab5\src\main\java\org\example\data.json" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -98,6 +109,7 @@
         <item itemvalue="Application.ConsoleApp" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +126,7 @@
       <workItem from="1677666801709" duration="19747000" />
       <workItem from="1677750248539" duration="5771000" />
       <workItem from="1678537973989" duration="1519000" />
+      <workItem from="1678888276160" duration="11847000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1677612658594</created>

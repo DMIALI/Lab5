@@ -18,6 +18,7 @@ public class CollectionManager {
     @Setter
     private LinkedList<MusicBand> musicBands;
     private File file;
+    @Getter
     private Date creationDate;
     @Getter
     private IdManager idManager;

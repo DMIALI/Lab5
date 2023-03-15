@@ -12,7 +12,6 @@ public class JsonWriter {
     public void write(File json, LinkedList<MusicBand> musicBands) throws IOException {
         FileWriter fileWriter = new FileWriter(json);
         String newjson = (new ObjectMapper()).writeValueAsString(musicBands);
-        System.out.println(newjson);
         fileWriter.write(newjson);
         fileWriter.flush();
         fileWriter.close();

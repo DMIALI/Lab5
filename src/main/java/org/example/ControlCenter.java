@@ -19,6 +19,7 @@ public class ControlCenter {
         commandMap.put("exit", new Exit());
         commandMap.put("filter_by_albums_count", new FilterByAlbumsCount());
         commandMap.put("help", new Help());
+        commandMap.put("info", new Info());
         commandMap.put("remove_any_by_front_man", new RemoveAnyByFrontMan());
         commandMap.put("remove_at", new RemoveAt());
         commandMap.put("remove_by_id", new RemoveById());
@@ -27,18 +28,6 @@ public class ControlCenter {
         commandMap.put("show", new Show());
         commandMap.put("shuffle", new Shuffle());
         commandMap.put("update", new Update());
-        ((Help) (commandMap.get("help"))).addCommandMap(commandMap);
-        /*File dir = new File("src\\main\\java\\org\\example\\Commands");
-        File[] arrFiles =dir.listFiles();
-        assert arrFiles != null;
-        for(File file:arrFiles){
-            String ch = "\\\\";
-            String[] arrCom = file.toString().split(ch);
-            String name = arrCom[arrCom.length - 1].split("\\.")[0];
-            if (! name.equalsIgnoreCase("Command")) {
-                commandMap.put(name, (Command) Class.forName("org.example.Commands." + name).newInstance());
-            }
-        }*/
     }
 
     public void Start(String path) throws IOException {
@@ -52,20 +41,13 @@ public class ControlCenter {
                 ArrayList<String> listOfCommand = new ArrayList<String>();
                 Collections.addAll(listOfCommand, command.split(" "));
                 String name = listOfCommand.remove(0);
-                commandMap.get(inputHandler(name)).execute(new InputCommandData(collectionManager,scanner, printer, listOfCommand));
+                commandMap.get(inputHandler(name)).execute(new InputCommandData(collectionManager,scanner, printer, listOfCommand, commandMap));
             } catch (NullPointerException e) {
                 System.out.println("No such command");
             }
             command = scanner.nextLine();
 
         }
-    }
-
-
-
-    private String firstUpperCase(String word) {
-        if (word == null || word.isEmpty()) return "";
-        return word.substring(0, 1).toUpperCase() + word.toLowerCase().substring(1);
     }
 
     private String inputHandler(String input) {
@@ -75,7 +57,6 @@ public class ControlCenter {
             name.append('_');
         }
         name.deleteCharAt(name.lastIndexOf("_"));
-        //System.out.println(name.toString());
         return name.toString();
     }
 }

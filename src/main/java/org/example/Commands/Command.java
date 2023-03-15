@@ -1,11 +1,13 @@
 package org.example.Commands;
 
 import lombok.Getter;
+import lombok.Setter;
 import org.example.Commands.CommandData.InputCommandData;
 import org.example.Commands.CommandData.OutputCommandData;
 
 public abstract class Command {
     @Getter
+    @Setter
     private String functionality;
 
     public Command(String function){
