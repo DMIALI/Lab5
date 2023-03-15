@@ -19,10 +19,11 @@ public class RemoveAnyByFrontMan extends Command {
         CollectionManager collectionManager = input.collectionManager();
         Printer printer = input.printer();
         ArrayList<String> args = input.args();
-        if(args.size() > 0) {
+        if(args.size() == 1) {
             for(MusicBand musicBand: collectionManager.getMusicBands()){
                 if(musicBand.getFrontMan().getName().equals(args.get(0))){
                     collectionManager.getMusicBands().remove(musicBand);
+                    printer.outPrintln("Элемент успешно удален =)");
                     return;
                 }
             }

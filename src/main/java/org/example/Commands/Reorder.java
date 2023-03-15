@@ -21,6 +21,6 @@ public class Reorder extends Command {
             musicBandLinkedList.add(0, musicBand);
         }
         collectionManager.setMusicBands(musicBandLinkedList);
-        //System.out.println(musicBandLinkedList);
+        input.printer().outPrintln("Коллекция успешно отсортирована в обратном порядке =)");
     }
 }

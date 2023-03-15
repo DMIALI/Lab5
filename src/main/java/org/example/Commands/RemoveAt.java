@@ -19,10 +19,11 @@ public class RemoveAt extends Command {
         CollectionManager collectionManager = input.collectionManager();
         Printer printer = input.printer();
         ArrayList<String> args = input.args();
-        if(args.size() > 0 && PrimitiveTypeAsserter.checkInteger(args.get(0))) {
+        if(args.size() == 1 && PrimitiveTypeAsserter.checkInteger(args.get(0))) {
             int index = Integer.parseInt(args.get(0));
             collectionManager.getMusicBands().remove(index);
             collectionManager.getIdManager().remove((long) index);
+            printer.outPrintln("Элемент успешно удален =)");
         } else{
             printer.errPrintln("Введены некоректные данные");
         }

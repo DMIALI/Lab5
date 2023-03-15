@@ -6,87 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="Clone files from branch 'Vasiliev'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/CollectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CollectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Clear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/CommandData/InputCommandData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/CommandData/InputCommandData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/CommandData/OutputCommandData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/CommandData/OutputCommandData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/CountByNumberOfParticipants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/CountByNumberOfParticipants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/ExecuteScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/ExecuteScript.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Exit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/FilterByAlbumsCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/FilterByAlbumsCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Help.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/RemoveAnyByFrontMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAnyByFrontMan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/RemoveAt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/RemoveById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveById.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/Reorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Reorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/Save.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Save.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Show.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/Shuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Shuffle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/Commands/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Update.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ConsoleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/ControlCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControlCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/DataTypes/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DataTypes/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/DataTypes/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DataTypes/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/DataTypes/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DataTypes/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/DataTypes/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DataTypes/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/DataTypes/MusicBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DataTypes/MusicBand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/DataTypes/MusicGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DataTypes/MusicGenre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/DataTypes/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DataTypes/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/utils/IdManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/IdManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/utils/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/JsonReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/utils/JsonWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/JsonWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/utils/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/utils/PrimitiveTypeAsserter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/PrimitiveTypeAsserter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/utils/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/main/java/org/example/utils/RepeatInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/RepeatInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/CollectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/CollectionManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Add$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Add$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Add$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Add$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Add$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Add$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Add$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Add$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Add$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Add$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Add.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Clear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Clear.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/CommandData/InputCommandData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/CommandData/InputCommandData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/CommandData/OutputCommandData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/CommandData/OutputCommandData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/CountByNumberOfParticipants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/CountByNumberOfParticipants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/ExecuteScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/ExecuteScript.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Exit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Exit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/FilterByAlbumsCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/FilterByAlbumsCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Help.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Help.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/RemoveAnyByFrontMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveAnyByFrontMan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/RemoveAt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveAt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/RemoveById.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveById.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Reorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Reorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Save.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Save.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Show.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Show.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Shuffle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Shuffle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/Commands/Update.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Update.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/ConsoleApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ConsoleApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/ControlCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ControlCenter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/DataTypes/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DataTypes/Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/DataTypes/Coordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DataTypes/Coordinates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/DataTypes/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DataTypes/Country.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/DataTypes/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DataTypes/Location.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/DataTypes/MusicBand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DataTypes/MusicBand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/DataTypes/MusicGenre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DataTypes/MusicGenre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/DataTypes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DataTypes/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/utils/IdManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/utils/IdManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/utils/JsonReader$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/utils/JsonReader$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/utils/JsonReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/utils/JsonReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/utils/JsonWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/utils/JsonWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/utils/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/utils/Operation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/utils/PrimitiveTypeAsserter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/utils/PrimitiveTypeAsserter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/utils/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/utils/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/target/classes/org/example/utils/RepeatInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/utils/RepeatInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Clear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/CountByNumberOfParticipants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/CountByNumberOfParticipants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/FilterByAlbumsCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/FilterByAlbumsCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAnyByFrontMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAnyByFrontMan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveById.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Reorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Reorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Shuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Shuffle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,13 +69,24 @@
     <configuration name="ConsoleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ConsoleApp" />
       <module name="Lab5" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\фвьшт\IdeaProjects\Lab5\src\main\java\org\example\data.json" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\dmitr\IdeaProjects\Lab5\src\main\java\org\example\data.json" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,6 +107,7 @@
       <updated>1677612466259</updated>
       <workItem from="1677612467832" duration="6966000" />
       <workItem from="1677657910814" duration="671000" />
+      <workItem from="1678917526116" duration="1219000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1677612658594</created>

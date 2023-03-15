@@ -21,7 +21,7 @@ public class CountByNumberOfParticipants extends Command {
         CollectionManager collectionManager = input.collectionManager();
         Printer printer = input.printer();
         ArrayList<String> args = input.args();
-        if(args.size() > 0 && PrimitiveTypeAsserter.checkInteger(args.get(0))){
+        if(args.size() == 1 && PrimitiveTypeAsserter.checkInteger(args.get(0))){
             int numberOfParticipants = Integer.parseInt(args.get(0));
             int countByNumberOfParticipants = 0;
             for (MusicBand musicBand : collectionManager.getMusicBands()) {

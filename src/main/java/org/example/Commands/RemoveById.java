@@ -18,11 +18,12 @@ public class RemoveById extends Command{
         CollectionManager collectionManager = input.collectionManager();
         Printer printer = input.printer();
         ArrayList<String> args = input.args();
-        if(args.size() > 0 && PrimitiveTypeAsserter.checkLong(args.get(0))) {
+        if(args.size() == 1 && PrimitiveTypeAsserter.checkLong(args.get(0))) {
             try {
                 long id = Integer.parseInt(args.get(0));
                 collectionManager.getMusicBands().remove(collectionManager.getMusicBandById(id));
                 collectionManager.getIdManager().remove(id);
+                printer.outPrintln("Элемент успешно удален =)");
             } catch(NullPointerException e ) {
                 printer.errPrintln("Элемента с таким id нет");
             }

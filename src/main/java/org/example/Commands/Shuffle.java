@@ -15,7 +15,7 @@ public class Shuffle extends Command {
     @Override
     public void execute(InputCommandData input) {
         CollectionManager collectionManager = input.collectionManager();
-        ArrayList<MusicBand> musicBandLinkedList = new ArrayList<>();
         Collections.shuffle(collectionManager.getMusicBands());
+        input.printer().outPrintln("Элементы успешно перемешались =)");
     }
 }
