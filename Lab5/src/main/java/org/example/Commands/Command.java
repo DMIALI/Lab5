@@ -11,6 +11,7 @@ import java.util.ArrayList;
 
 public abstract class Command {
     @Getter
+    @Setter
     private String functionality;
 
     public Command(String function){
