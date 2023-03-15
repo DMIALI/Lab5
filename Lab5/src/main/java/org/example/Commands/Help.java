@@ -19,6 +19,6 @@ public class Help extends Command {
         for (String key:keys){
             out.append(key).append(" - ").append(commandMap.get(key).getFunctionality()).append("\n");
         }
-        printer.outPrintln(out.toString());
+        printer.outPrint(out.toString());
     }
 }
