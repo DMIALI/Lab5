@@ -16,6 +16,6 @@ public class Show extends Command{
     public void execute(InputCommandData input) {
         CollectionManager collectionManager = input.collectionManager();
         Printer printer = input.printer();
-        printer.outPrintln(collectionManager.toString());
+        printer.outPrint(collectionManager.toString());
     }
 }
