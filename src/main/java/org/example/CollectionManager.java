@@ -57,7 +57,14 @@ public class CollectionManager {
         }
         return file;
     }
-
+    public MusicBand getMusicBandById (long id) throws NullPointerException {
+        for(MusicBand musicBand: getMusicBands()){
+            if (musicBand.getId() == id){
+                return musicBand;
+            }
+        }
+        throw new NullPointerException();
+    }
     @Override
     public String toString() {
         StringBuilder out = new StringBuilder();

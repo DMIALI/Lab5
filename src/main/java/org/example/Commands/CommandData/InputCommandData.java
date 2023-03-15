@@ -7,4 +7,5 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public record InputCommandData(CollectionManager collectionManager, Scanner scanner, Printer printer, ArrayList<String> args) {
+
 }

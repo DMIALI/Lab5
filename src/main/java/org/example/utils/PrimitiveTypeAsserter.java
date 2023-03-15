@@ -20,4 +20,14 @@ public class PrimitiveTypeAsserter {
             return false;
         }
     }
+
+    public static boolean checkInteger(String primitive) {
+        try{
+            Integer c = Integer.valueOf(primitive);
+            return true;
+        }
+        catch (NumberFormatException e){
+            return false;
+        }
+    }
 }

@@ -38,6 +38,10 @@ public class IdManager {
         }
         return 0L;
     }
+    public void resetToZero(){
+        maxid = 0L;
+        ids.clear();
+    }
 
     public void remove(Long id) {
         ids.remove(id);

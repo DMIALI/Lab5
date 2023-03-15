@@ -17,5 +17,6 @@ public class Clear extends Command {
     public void execute(InputCommandData input) {
         CollectionManager collectionManager = input.collectionManager();
         collectionManager.getMusicBands().clear();
+        collectionManager.getIdManager().resetToZero();
     }
 }
