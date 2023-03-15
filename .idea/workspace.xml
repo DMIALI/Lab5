@@ -4,16 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="Clone files from branch 'Vasiliev'">
+    <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="make the interface more friendly">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Clear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/CountByNumberOfParticipants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/CountByNumberOfParticipants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/FilterByAlbumsCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/FilterByAlbumsCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAnyByFrontMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAnyByFrontMan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveById.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Reorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Reorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Save.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Save.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Show.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Shuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Shuffle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Clear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Clear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/CountByNumberOfParticipants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/CountByNumberOfParticipants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/FilterByAlbumsCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/FilterByAlbumsCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveAnyByFrontMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveAnyByFrontMan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveAt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveAt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveById.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveById.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Reorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Reorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Shuffle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Shuffle.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +113,7 @@
       <updated>1677612466259</updated>
       <workItem from="1677612467832" duration="6966000" />
       <workItem from="1677657910814" duration="671000" />
-      <workItem from="1678917526116" duration="1219000" />
+      <workItem from="1678917526116" duration="3470000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1677612658594</created>
@@ -123,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677622142009</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="make the interface more friendly">
+      <created>1678918920428</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678918920429</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +156,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create project" />
     <MESSAGE value="Create a Control Center where the command-class will be placed in a Map with command objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a Control Center where the command-class will be placed in a Map with command objects" />
+    <MESSAGE value="make the interface more friendly" />
+    <option name="LAST_COMMIT_MESSAGE" value="make the interface more friendly" />
   </component>
 </project>

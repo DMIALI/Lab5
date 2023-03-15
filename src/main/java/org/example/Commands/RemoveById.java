@@ -7,12 +7,20 @@ import org.example.utils.Printer;
 
 import java.util.ArrayList;
 
+/**
+ * Class-command to delete element by its ID
+ */
 public class RemoveById extends Command{
-
+    /**
+     * Constructor responsible for describing the functionality of the command
+     */
     public RemoveById () {
         super("удалить элемент из коллекции по его id");
     }
-
+    /**
+     * @param input
+     * Method that deletes element by ID
+     */
     @Override
     public void execute(InputCommandData input) {
         CollectionManager collectionManager = input.collectionManager();

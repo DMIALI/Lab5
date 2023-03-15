@@ -8,12 +8,22 @@ import org.example.utils.Printer;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * Class-command to delete element by its index
+ */
 public class RemoveAt extends Command {
 
+    /**
+     * Constructor responsible for describing the functionality of the command
+     */
     public RemoveAt () {
         super("удалить элемент, находящийся в заданной позиции коллекции (index)");
     }
 
+    /**
+     * @param input
+     * Method that deletes element by index
+     */
     @Override
     public void execute(InputCommandData input) {
         CollectionManager collectionManager = input.collectionManager();
