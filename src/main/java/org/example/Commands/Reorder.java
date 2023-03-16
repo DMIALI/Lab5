@@ -18,8 +18,8 @@ public class Reorder extends Command {
     }
 
     /**
-     * @param input
      * Method that sorts elements in revers order
+     * @param input {@link InputCommandData}
      */
     @Override
     public void execute(InputCommandData input) {

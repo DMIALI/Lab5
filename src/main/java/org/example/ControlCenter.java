@@ -7,6 +7,9 @@ import org.example.utils.Printer;
 import java.io.IOException;
 import java.util.*;
 
+/**
+ * Class for manage command
+ */
 public class ControlCenter {
 
     private final HashMap<String, Command> commandMap = new HashMap<>();

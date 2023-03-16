@@ -17,8 +17,8 @@ public class RemoveById extends Command{
         super("удалить элемент из коллекции по его id");
     }
     /**
-     * @param input
      * Method that deletes element by ID
+     * @param input {@link InputCommandData}
      */
     @Override
     public void execute(InputCommandData input) {

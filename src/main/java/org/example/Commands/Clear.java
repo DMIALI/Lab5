@@ -16,8 +16,8 @@ public class Clear extends Command {
     }
 
     /**
-     * @param input
      * Method that clear the collection
+     * @param input {@link InputCommandData}
      */
     @Override
     public void execute(InputCommandData input) {

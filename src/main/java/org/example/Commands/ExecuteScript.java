@@ -23,8 +23,8 @@ public class ExecuteScript extends Command {
     }
 
     /**
-     * @param input
      * Method that executes commands from a file
+     * @param input {@link InputCommandData}
      */
     @Override
     public void execute(InputCommandData input) {

@@ -18,8 +18,8 @@ public class Save extends Command {
     }
 
     /**
-     * @param input
      * Method that saves collection to a file
+     * @param input {@link InputCommandData}
      */
     @Override
     public void execute(InputCommandData input) {

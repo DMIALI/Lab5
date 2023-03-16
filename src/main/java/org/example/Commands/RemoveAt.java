@@ -19,8 +19,8 @@ public class RemoveAt extends Command {
     }
 
     /**
-     * @param input
      * Method that deletes element by index
+     * @param input {@link InputCommandData}
      */
     @Override
     public void execute(InputCommandData input) {

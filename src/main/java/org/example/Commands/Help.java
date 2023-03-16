@@ -17,8 +17,8 @@ public class Help extends Command {
     }
 
     /**
-     * @param input
      * Method that print information about commands
+     * @param input {@link InputCommandData}
      */
     @Override
     public void execute(InputCommandData input){

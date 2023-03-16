@@ -13,6 +13,9 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+/**
+ * Class for manage of collection
+ */
 public class CollectionManager {
     @Getter
     @Setter

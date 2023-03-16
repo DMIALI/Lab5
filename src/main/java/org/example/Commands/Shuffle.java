@@ -17,8 +17,8 @@ public class Shuffle extends Command {
     }
 
     /**
-     * @param input
      * Method that shuffle elements
+     * @param input {@link InputCommandData}
      */
     @Override
     public void execute(InputCommandData input) {

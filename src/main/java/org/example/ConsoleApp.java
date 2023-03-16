@@ -2,6 +2,9 @@ package org.example;
 
 import java.io.IOException;
 
+/**
+ * Class for starting program
+ */
 public class ConsoleApp {
     public static void main(String[] args) throws IOException {
         ControlCenter controlCenter = new ControlCenter();

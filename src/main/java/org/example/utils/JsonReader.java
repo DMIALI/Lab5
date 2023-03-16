@@ -9,6 +9,9 @@ import java.util.List;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/**
+ * Read in json file
+ */
 public class JsonReader {
     public LinkedList<MusicBand> read(File json) throws IOException {
         InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream(json));

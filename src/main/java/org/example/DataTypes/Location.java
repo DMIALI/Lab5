@@ -2,6 +2,9 @@ package org.example.DataTypes;
 
 import lombok.*;
 
+/**
+ *
+ */
 @ToString(includeFieldNames = true)
 @Getter
 @Setter
@@ -9,8 +12,20 @@ import lombok.*;
 @NoArgsConstructor
 
 public class Location {
+    /**
+     * X coordinate
+     */
     private int x;
+    /**
+     * Y coordinate
+     */
     private Float y; //Поле не может быть null
+    /**
+     * Z coordinate
+     */
     private long z;
+    /**
+     * Name of location
+     */
     private String name; //Поле может быть null
 }

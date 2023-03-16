@@ -21,8 +21,8 @@ public class CountByNumberOfParticipants extends Command {
     }
 
     /**
-     * @param input
      * Method that find cont of Music Bands with a given number of participants
+     * @param input {@link InputCommandData}
      */
     @Override
     public void execute(InputCommandData input) {

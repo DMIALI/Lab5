@@ -16,8 +16,8 @@ public class Info extends Command{
     }
 
     /**
-     * @param input
      * Method that print information about the collection
+     * @param input {@link InputCommandData}
      */
     @Override
     public void execute(InputCommandData input) {

@@ -1,5 +1,8 @@
 package org.example.utils;
 
+/**
+ * Class that convert variable
+ */
 public class PrimitiveTypeAsserter {
     public static boolean checkInteger(String primitive){
         try{

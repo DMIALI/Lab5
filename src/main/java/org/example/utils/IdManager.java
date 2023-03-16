@@ -6,6 +6,9 @@ import org.example.DataTypes.MusicBand;
 import java.util.Comparator;
 import java.util.LinkedList;
 
+/**
+ * Control id for music band
+ */
 public class IdManager {
     @Getter
 

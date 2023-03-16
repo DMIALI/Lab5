@@ -16,16 +16,16 @@ public abstract class Command {
     private String functionality;
 
     /**
-     * @param function
      * Constructor for adding a description of functionality to each command
+     * @param function
      */
     public Command(String function){
         this.functionality = function;
     }
 
     /**
-     * @param input
      * Abstract method for implementing program functionality
+     * @param input {@link InputCommandData}
      */
     public abstract void execute(InputCommandData input);
 

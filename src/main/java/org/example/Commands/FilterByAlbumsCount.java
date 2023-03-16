@@ -21,8 +21,8 @@ public class FilterByAlbumsCount extends Command {
     }
 
     /**
-     * @param input
      * Method that find Music Bands with a given count of albums
+     * @param input {@link InputCommandData}
      */
     @Override
     public void execute(InputCommandData input) {

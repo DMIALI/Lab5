@@ -17,8 +17,8 @@ public class Exit extends Command{
     }
 
     /**
-     * @param input
      * Method that stopped program
+     * @param input {@link InputCommandData}
      */
     @Override
     public void execute(InputCommandData input) {

@@ -17,8 +17,8 @@ public class Show extends Command{
     }
 
     /**
-     * @param input -
      * Method that shows all elements in collection
+     * @param input {@link InputCommandData}
      */
     @Override
     public void execute(InputCommandData input) {
