@@ -1,11 +1,9 @@
 package org.example.Commands;
 import org.example.CollectionManager;
 import org.example.Commands.CommandData.InputCommandData;
-import org.example.Commands.CommandData.OutputCommandData;
 import org.example.utils.Printer;
 
 import java.io.IOException;
-import java.util.ArrayList;
 
 /**
  * Class-command to save collection into the file

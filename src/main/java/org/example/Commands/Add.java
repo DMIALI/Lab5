@@ -9,9 +9,13 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.Scanner;
-
+/**
+ * Class-command to add new element to a collection
+ */
 public class Add extends Command {
-
+    /**
+     * Constructor responsible for describing the functionality of the command
+     */
     public Add() {
         super("добавить новый элемент в коллекцию");
     }

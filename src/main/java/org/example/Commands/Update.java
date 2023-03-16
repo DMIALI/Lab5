@@ -2,7 +2,6 @@ package org.example.Commands;
 
 import org.example.CollectionManager;
 import org.example.Commands.CommandData.InputCommandData;
-import org.example.Commands.CommandData.OutputCommandData;
 import org.example.DataTypes.Coordinates;
 import org.example.DataTypes.MusicBand;
 import org.example.DataTypes.MusicGenre;
@@ -28,8 +27,8 @@ public class Update extends Add {
     }
 
     /**
-     * @param input
      * Method that updates the elements by their ID
+     * @param input {@link InputCommandData}
      */
     @Override
     public void execute(InputCommandData input) {

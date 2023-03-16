@@ -2,10 +2,7 @@ package org.example.Commands;
 
 import org.example.CollectionManager;
 import org.example.Commands.CommandData.InputCommandData;
-import org.example.Commands.CommandData.OutputCommandData;
 import org.example.utils.Printer;
-
-import java.util.ArrayList;
 
 /**
  * Class-command for displaying information about the collection

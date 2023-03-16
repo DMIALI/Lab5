@@ -1,8 +1,6 @@
 package org.example.Commands;
 import org.example.CollectionManager;
 import org.example.Commands.CommandData.InputCommandData;
-import org.example.Commands.CommandData.OutputCommandData;
-import org.example.DataTypes.MusicBand;
 
 import java.util.*;
 
