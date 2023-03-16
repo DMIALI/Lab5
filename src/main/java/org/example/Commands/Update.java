@@ -46,15 +46,13 @@ public class Update extends Add {
             if (PrimitiveTypeAsserter.checkLong(arg)&&(idManager.getIds().contains(Integer.valueOf(arg)))){
                 printer.outPrintln("Изменение данных музыкальной группы");
                 Long id = (Long.valueOf(arg));
-                String name = receiveName(scanner, printer);
-                Coordinates coordinates = receiveCoordinates(scanner, printer);
-                Date date = new Date();
-                long numberOfParticipants = receiveNumberOfParticipants(scanner, printer);
-                long albumsCount = receiveAlbumsCount(scanner, printer);
-                MusicGenre musicGenre = receiveMusicGenre(scanner, printer);
-                Person person = receivePerson(scanner, printer);
-                int oldMusicBandIndex = collectionManager.getMusicBands().indexOf(collectionManager.getMusicBandById(id));
-                musicBands.set(oldMusicBandIndex, new MusicBand(id, name, coordinates, date, numberOfParticipants, albumsCount, musicGenre, person));
+                MusicBand musicBand = collectionManager.getMusicBandById(id);
+                musicBand.setName(receiveName(scanner, printer));
+                musicBand.setCoordinates(receiveCoordinates(scanner, printer));
+                musicBand.setNumberOfParticipants(receiveNumberOfParticipants(scanner, printer));
+                musicBand.setAlbumsCount(receiveAlbumsCount(scanner, printer));
+                musicBand.setGenre(receiveMusicGenre(scanner, printer));
+                musicBand.setFrontMan(receivePerson(scanner, printer));
                 printer.outPrintln("Элемент успешно обновлен");
             }
             else{
