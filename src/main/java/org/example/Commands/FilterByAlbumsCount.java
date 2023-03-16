@@ -9,12 +9,22 @@ import org.example.utils.Printer;
 
 import java.util.ArrayList;
 
+/**
+ *  Class-command to find Music Bands with a given count of albums
+ */
 public class FilterByAlbumsCount extends Command {
 
+    /**
+     * Constructor responsible for describing the functionality of the command
+     */
     public FilterByAlbumsCount () {
         super("вывести элементы, значение поля albumsCount которых равно заданном");
     }
 
+    /**
+     * @param input
+     * Method that find Music Bands with a given count of albums
+     */
     @Override
     public void execute(InputCommandData input) {
         CollectionManager collectionManager = input.collectionManager();

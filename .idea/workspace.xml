@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="make the interface more friendly">
+    <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="add java doc to class-command: Shuffle, Show, Save, Reorder, RemoveById, RemoveAt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveById.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Reorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Reorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Save.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Save.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Show.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Shuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Shuffle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Clear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Clear.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/CountByNumberOfParticipants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/CountByNumberOfParticipants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/FilterByAlbumsCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/FilterByAlbumsCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveAnyByFrontMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveAnyByFrontMan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveAt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveAt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveById.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveById.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Reorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Reorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Shuffle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Shuffle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Clear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/CountByNumberOfParticipants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/CountByNumberOfParticipants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/ExecuteScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/ExecuteScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Exit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/FilterByAlbumsCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/FilterByAlbumsCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Help.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAnyByFrontMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAnyByFrontMan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Update.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +109,8 @@
       <updated>1677612466259</updated>
       <workItem from="1677612467832" duration="6966000" />
       <workItem from="1677657910814" duration="671000" />
-      <workItem from="1678917526116" duration="3470000" />
+      <workItem from="1678917526116" duration="3636000" />
+      <workItem from="1678951981401" duration="3300000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1677612658594</created>
@@ -136,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678918920429</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add java doc to class-command: Shuffle, Show, Save, Reorder, RemoveById, RemoveAt">
+      <created>1678921107075</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678921107075</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +161,7 @@
     <MESSAGE value="Create project" />
     <MESSAGE value="Create a Control Center where the command-class will be placed in a Map with command objects" />
     <MESSAGE value="make the interface more friendly" />
-    <option name="LAST_COMMIT_MESSAGE" value="make the interface more friendly" />
+    <MESSAGE value="add java doc to class-command: Shuffle, Show, Save, Reorder, RemoveById, RemoveAt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add java doc to class-command: Shuffle, Show, Save, Reorder, RemoveById, RemoveAt" />
   </component>
 </project>

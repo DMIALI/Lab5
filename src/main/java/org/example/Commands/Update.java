@@ -16,11 +16,21 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+/**
+ * Class-command to update the elements by their ID
+ */
 public class Update extends Add {
+    /**
+     * Constructor responsible for describing the functionality of the command
+     */
     public Update() {
         this.setFunctionality("обновить значение элемента коллекции, id которого равен заданному");
     }
 
+    /**
+     * @param input
+     * Method that updates the elements by their ID
+     */
     @Override
     public void execute(InputCommandData input) {
         CollectionManager collectionManager = input.collectionManager();

@@ -8,12 +8,22 @@ import org.example.utils.Printer;
 
 import java.util.ArrayList;
 
+/**
+ * Class-command to delete element by its front man
+ */
 public class RemoveAnyByFrontMan extends Command {
 
+    /**
+     * Constructor responsible for describing the functionality of the command
+     */
     public RemoveAnyByFrontMan () {
         super("удалить из коллекции один элемент, значение поля frontMan которого эквивалентно заданному");
     }
 
+    /**
+     * @param input
+     *  Method that deletes element by front man
+     */
     @Override
     public void execute(InputCommandData input) {
         CollectionManager collectionManager = input.collectionManager();

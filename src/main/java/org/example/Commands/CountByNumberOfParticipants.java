@@ -10,12 +10,22 @@ import org.example.utils.Printer;
 import javax.lang.model.type.PrimitiveType;
 import java.util.ArrayList;
 
+/**
+ * Class-command to find count of Music Bands with a given number of participants
+ */
 public class CountByNumberOfParticipants extends Command {
 
+    /**
+     * Constructor responsible for describing the functionality of the command
+     */
     public CountByNumberOfParticipants() {
         super("вывести количество элементов, значение поля numberOfParticipants которых равно заданному");
     }
 
+    /**
+     * @param input
+     * Method that find cont of Music Bands with a given number of participants
+     */
     @Override
     public void execute(InputCommandData input) {
         CollectionManager collectionManager = input.collectionManager();

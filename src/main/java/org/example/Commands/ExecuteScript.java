@@ -11,12 +11,22 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Scanner;
 
+/**
+ * Class-command for executing a commands from a file
+ */
 public class ExecuteScript extends Command {
 
+    /**
+     * Constructor responsible for describing the functionality of the command
+     */
     public ExecuteScript() {
         super("считать и исполнить скрипт из указанного файла. В скрипте содержатся команды в таком же виде, в котором их вводит пользователь в интерактивном режиме.");
     }
 
+    /**
+     * @param input
+     * Method that executes commands from a file
+     */
     @Override
     public void execute(InputCommandData input) {
         ArrayList<String> args = input.args();

@@ -5,11 +5,21 @@ import org.example.utils.Printer;
 
 import java.util.*;
 
+/**
+ * Class-command for displaying information about commands
+ */
 public class Help extends Command {
+    /**
+     * Constructor responsible for describing the functionality of the command
+     */
     public Help () {
         super("вывести справку по доступным командам");
     }
 
+    /**
+     * @param input
+     * Method that print information about commands
+     */
     @Override
     public void execute(InputCommandData input){
         Printer printer = input.printer();

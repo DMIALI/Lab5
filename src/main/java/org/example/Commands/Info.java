@@ -7,10 +7,21 @@ import org.example.utils.Printer;
 
 import java.util.ArrayList;
 
+/**
+ * Class-command for displaying information about the collection
+ */
 public class Info extends Command{
+    /**
+     * Constructor responsible for describing the functionality of the command
+     */
     public Info () {
         super("вывести в стандартный поток вывода информацию о коллекции (тип, дата инициализации, количество элементов и т.д.)");
     }
+
+    /**
+     * @param input
+     * Method that print information about the collection
+     */
     @Override
     public void execute(InputCommandData input) {
         Printer printer = input.printer();

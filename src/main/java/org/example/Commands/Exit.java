@@ -5,11 +5,21 @@ import org.example.utils.Printer;
 
 import java.util.Scanner;
 
+/**
+ * Class-command to complete the work
+ */
 public class Exit extends Command{
+    /**
+     * Constructor responsible for describing the functionality of the command
+     */
     public Exit() {
         super("завершить программу (без сохранения в файл)");
     }
 
+    /**
+     * @param input
+     * Method that stopped program
+     */
     @Override
     public void execute(InputCommandData input) {
         Printer printer = input.printer();
