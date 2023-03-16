@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="add java doc to class-command: Shuffle, Show, Save, Reorder, RemoveById, RemoveAt">
+    <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="add java doc to all class-command">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Clear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/CountByNumberOfParticipants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/CountByNumberOfParticipants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/ExecuteScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/ExecuteScript.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Exit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/FilterByAlbumsCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/FilterByAlbumsCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Help.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAnyByFrontMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/RemoveAnyByFrontMan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DataTypes/MusicBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DataTypes/MusicBand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +101,8 @@
       <workItem from="1677612467832" duration="6966000" />
       <workItem from="1677657910814" duration="671000" />
       <workItem from="1678917526116" duration="3636000" />
-      <workItem from="1678951981401" duration="3300000" />
+      <workItem from="1678951981401" duration="3503000" />
+      <workItem from="1678956329422" duration="1666000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1677612658594</created>
@@ -140,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678921107075</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add java doc to all class-command">
+      <created>1678955470626</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678955470626</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +161,7 @@
     <MESSAGE value="Create a Control Center where the command-class will be placed in a Map with command objects" />
     <MESSAGE value="make the interface more friendly" />
     <MESSAGE value="add java doc to class-command: Shuffle, Show, Save, Reorder, RemoveById, RemoveAt" />
-    <option name="LAST_COMMIT_MESSAGE" value="add java doc to class-command: Shuffle, Show, Save, Reorder, RemoveById, RemoveAt" />
+    <MESSAGE value="add java doc to all class-command" />
+    <option name="LAST_COMMIT_MESSAGE" value="add java doc to all class-command" />
   </component>
 </project>
