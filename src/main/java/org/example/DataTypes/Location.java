@@ -3,7 +3,7 @@ package org.example.DataTypes;
 import lombok.*;
 
 /**
- *
+ * Location of musicBand's
  */
 @ToString(includeFieldNames = true)
 @Getter

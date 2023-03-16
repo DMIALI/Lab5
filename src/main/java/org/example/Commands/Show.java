@@ -5,7 +5,6 @@ import org.example.Commands.CommandData.InputCommandData;
 import org.example.utils.Printer;
 
 /**
- * @author DMIALI
  * Сlass-command for displaying all the elements of a collection
  */
 public class Show extends Command{
