@@ -26,11 +26,11 @@ public class CollectionManager {
     @Getter
     private IdManager idManager;
     private JsonWriter jsonWriter = new JsonWriter();
-    private JsonReader jsonReader = new JsonReader();
 
     public CollectionManager(String path, Scanner scanner, Printer printer) throws IOException {
         this.file = receiveFile(path, scanner, printer);
         printer.outPrintln("Файл считан успешно");
+        JsonReader jsonReader = new JsonReader();
         this.musicBands = jsonReader.read(file);
         this.creationDate = new Date();
         this.idManager = new IdManager(musicBands);

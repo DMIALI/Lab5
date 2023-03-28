@@ -3,6 +3,7 @@ package org.example.utils;
 import lombok.Getter;
 import org.example.DataTypes.MusicBand;
 
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
 
@@ -16,15 +17,11 @@ public class IdManager {
     private Long maxid = 0L;
 
     public IdManager(LinkedList<MusicBand> musicBands) {
-        for (MusicBand i : musicBands) {
-            Long currid = i.getId();
-            if (currid > maxid) {
-                maxid = currid;
-            }
-            ids.add(Math.toIntExact(currid));
-            if (maxid.equals(Integer.MAX_VALUE)) {
-                ids.sort(Comparator.naturalOrder());
-            }
+        LinkedList<MusicBand> copy = new LinkedList<MusicBand>(musicBands);
+        Collections.sort(copy);
+        maxid = copy.getLast().getId();
+        for (MusicBand i : copy) {
+            ids.add(Math.toIntExact(i.getId()));
         }
     }
 
