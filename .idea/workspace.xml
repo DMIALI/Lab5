@@ -1,65 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="Lab5:jar" />
-    </artifacts-to-build>
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f6346b0-d008-472e-a483-736dd7a00b30" name="Changes" comment="add java doc">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Lab5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/script1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/script2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/script3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CollectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CollectionManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Commands/ExecuteScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Commands/ExecuteScript.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/IdManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/IdManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/JsonReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/CollectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/CollectionManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Add$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Add$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Add$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Add$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Add$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Add$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Add$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Add$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Add$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Add$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Add.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Clear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Clear.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/CommandData/InputCommandData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/CommandData/InputCommandData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/CommandData/OutputCommandData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/CountByNumberOfParticipants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/CountByNumberOfParticipants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/script1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/script1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/script2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/script2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/ExecuteScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/ExecuteScript.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/FilterByAlbumsCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/FilterByAlbumsCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveAnyByFrontMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveAnyByFrontMan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveAt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveAt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveById.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/RemoveById.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Reorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Reorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Save.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Save.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Show.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Show.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Shuffle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Shuffle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Commands/Update.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Commands/Update.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ConsoleApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ConsoleApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ControlCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ControlCenter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DataTypes/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DataTypes/Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DataTypes/Coordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DataTypes/Coordinates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DataTypes/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DataTypes/Country.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DataTypes/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DataTypes/Location.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DataTypes/MusicBand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DataTypes/MusicBand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DataTypes/MusicGenre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DataTypes/MusicGenre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DataTypes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DataTypes/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/utils/IdManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/utils/IdManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/utils/JsonReader$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/utils/JsonReader$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/utils/JsonReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/utils/JsonReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/utils/JsonWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/utils/JsonWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/utils/PrimitiveTypeAsserter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/utils/PrimitiveTypeAsserter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/utils/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/utils/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/utils/RepeatInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/utils/RepeatInput.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,30 +57,27 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/dmitr/Desktop/Дима/Java/LaboratoryWork-5&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15136719&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dmitr\IdeaProjects\Lab5\src\main\java\org\example\Commands" />
       <recent name="C:\Users\фвьшт\IdeaProjects\Lab5" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.Lab5.jar">
+  <component name="RunManager">
     <configuration name="ConsoleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ConsoleApp" />
       <module name="Lab5" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\dmitr\IdeaProjects\Lab5\src\main\java\org\example\data.json" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\фвьшт\IdeaProjects\Lab5\src\main\java\org\example\data.json" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -138,12 +87,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="Lab5.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Lab5_jar/Lab5.jar" />
-      <option name="PROGRAM_PARAMETERS" value="C:\\Users\\dmitr\\IdeaProjects\\Lab5\\src\\main\\java\\org\\example\\data.json" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -156,13 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.ConsoleApp" />
-      <item itemvalue="JAR Application.Lab5.jar" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.Lab5.jar" />
         <item itemvalue="Application.ConsoleApp" />
       </list>
     </recent_temporary>
@@ -180,7 +118,6 @@
       <workItem from="1678917526116" duration="3636000" />
       <workItem from="1678951981401" duration="3503000" />
       <workItem from="1678956329422" duration="1666000" />
-      <workItem from="1680027685726" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1677612658594</created>
@@ -224,14 +161,7 @@
       <option name="project" value="LOCAL" />
       <updated>1678969203259</updated>
     </task>
-    <task id="LOCAL-00007" summary="add java doc">
-      <created>1678969476711</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1678969476711</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,21 +186,5 @@
     <MESSAGE value="add java doc to all class-command" />
     <MESSAGE value="add java doc" />
     <option name="LAST_COMMIT_MESSAGE" value="add java doc" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ConsoleApp.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ControlCenter.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
